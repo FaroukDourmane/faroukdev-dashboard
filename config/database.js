@@ -10,12 +10,19 @@ module.exports = ({ env }) => ({
   // },
   connection: {
     client: 'mysql',
+    // connection: {
+    //   host: "localhost",
+    //   port: 8889,
+    //   database: "strapi",
+    //   user: "root",
+    //   password: "root"
+    // },
     connection: {
       host: "localhost",
-      port: 8889,
-      database: "strapi",
-      user: "root",
-      password: "root"
+      port: 3306,
+      database: "dashboard",
+      user: "faroukdev",
+      password: "F@rouk0904"
     },
     useNullAsDefault: true,
   },
