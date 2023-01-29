@@ -18,7 +18,7 @@ module.exports = ({ env }) => ({
     //   password: "root"
     // },
     connection: {
-      host: "127.0.0.1",
+      host: "localhost",
       port: 3306,
       database: "dashboard",
       user: "faroukdev",
